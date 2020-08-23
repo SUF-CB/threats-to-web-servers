@@ -17,30 +17,43 @@ p{
    text-align: center; 
   font-size: 25px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #143d5c;
-}
 
-li {
-  float: left;
-}
 
-li a {
+.th a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #443850;
+  padding: 8px 16px;
   text-decoration: none;
   font-size: 20px;
+  font-family: Anonymous Pro - 700;
+}
+
+/* Change the link color on hover */
+.th a:hover {
+  background-color:# 0000000;
+  color:#66FFF;
   
 }
 
-li a:hover {
-  background-color: #66FFFF;
+
+th a {
+  display: block;
+  color: #443850;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Anonymous Pro - 700;
+}
+
+/* Change the link color on hover */
+th a:hover {
+  background-color:# 0000000;
+  color: #FFFFFF;
+}
+
+
+table, th, td hr{
+  border:1px solid #443850;
 }
 
 p1{
@@ -56,4 +69,9 @@ h2{
    color: #ffffff; 
      text-align: Left;
      font-size: 20px;
+}
+img{
+ Display:block;
+ margin-left:auto;
+margin-right:auto;
 }
